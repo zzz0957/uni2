@@ -18,6 +18,14 @@ $http.beforeRequest = function (options) {
 $http.afterRequest = function () {
   uni.hideLoading()  // 隐藏登录效果
 }
+// 封装 uni.$showMsg() 方法 数据请求失败之后，经常需要调用
+uni.$showMsg = function (title = '数据加载失败！', duration = 1500) {
+  uni.showToast({
+    title,
+    duration,
+    icon: 'none',
+  })
+}
 
 Vue.config.productionTip = false
 
