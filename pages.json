@@ -39,7 +39,7 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "优先购",
-		"navigationBarBackgroundColor": "#00aaff",
+		"navigationBarBackgroundColor": "#C00000",
 		"backgroundColor": "#ffaaff"
 	},
   "tabBar": {
